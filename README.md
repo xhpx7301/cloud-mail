@@ -85,6 +85,10 @@
 
 
 
+## 本 Fork 的部署配置
+
+已将现有 D1、KV 绑定写入默认部署配置，避免同步上游后重新部署时丢失数据库连接。使用 Cloudflare 关联 GitHub 或 GitHub Actions 前，请阅读[本仓库的 Cloudflare 部署绑定说明](doc/cloudflare-bindings.md)。
+
 ## 技术栈
 
 - **平台**：[Cloudflare Workers](https://developers.cloudflare.com/workers/)
